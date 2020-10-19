@@ -1,0 +1,38 @@
+table, th, td{
+    padding: 10px;
+    border:1px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+}
+body{
+    background-image: url(../ressources/fond.jpg);
+}
+.pvert{
+    color: green;
+}
+p{
+    color: red;
+}
+.bordure{
+    border: 1px dotted black;
+    margin: 30px;
+    padding: 30px;
+}
+
+a:hover{
+    background-color: yellow;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color:green;
+}
+.area{
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+.inp{
+    margin-left: 300px;
+    margin-bottom: 100px;
+}

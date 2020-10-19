@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="icon" type="image/ico" href="ressources/favicon/favicon.ico">
+    <title>Mon premier TD !</title>
+</head>
+<body>
+    <h1>Mon premier TD !</h1>
+    <h2>Les balises</h2>
+    <h3>La balise p</h3>
+    <p class="pvert">Lorem ipsum dolor sit amet consectetur, <foo>adipisicing elit</foo>. Nihil cupiditate magni obcaecati pariatur, nesciunt quia quam eum rem est alias accusamus tempora dolore, ab sunt dolores impedit provident nisi. Quisquam!
+    </p>
+    <p class="bordure">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit blanditiis harum repellendus in accusamus necessitatibus error animi quidem nemo ducimus, tempora cum tenetur maiores dicta debitis quaerat quasi at sapiente.</p>
+
+    <h3>La balise "blockquote"</h3>
+        <!--Le blockquote sert à créer un petit block vide devant sont texte-->
+    <blockquote>Lorem, ipsum dolor sit amet <strong>consectetur adipisicing elit</strong>. Nobis, atque laudantium nostrum id sunt saepe <em>labore tenetur</em> <i>nisi rem perferendis iure</i>, consequuntur quisquam ipsam odio? Cumque nostrum repellat ut.
+    </blockquote>
+
+    <h3>La balise "pre"</h3>
+        <!--La balise pre sert à créer du texte avec un block vide devant et le texte continue sur le long de la page. (Ne reviens pas à la ligne)-->
+    <pre>
+        _||____|0| |Salut |
+        &#60_ __ _|- |_ __ _|
+        00 00 0 0
+    </pre>
+
+    <h3>Le lien hypertext dans un nouvel onglet</h3>
+    <a href="https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1203435-lien-hypertexte-definition-traduction/" target="blank">Le lien</a>
+    
+    <h3>Les listes</h3>
+
+    <h4>Liste ordonné</h4>
+    <ol>
+        <li>premier</li>
+        <li>deuxieme</li>
+        <li>troisieme</li>
+    </ol>
+
+    <h4>Liste désordonné</h4>
+    <ul>
+        <li>premier</li>
+        <li>deuxieme</li>
+        <li>troisieme</li>
+    </ul>
+
+
+    <h2>Les tableaux</h2>
+
+    <h3>Tableau 1</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>a</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>b</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Tableau 2</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>d</td>
+                <td>e</td>
+                <td>f</td>
+           
+        </tbody>
+    </table>
+
+    <h3>Tableau 3</h3>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">a</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">b</td>
+                <td>c</td>
+            </tr>
+            <tr>
+                <td>d</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Tableau 4</h3>
+    <table>
+        <tbody>
+            <tr>
+                <th rowspan="2">a</th>
+                <th colspan="2">b</th>
+                <th rowspan="2">c</th>
+            </tr>
+        
+            <tr>
+                <td>d</td>
+                <td>e</td>
+                
+            </tr>
+
+            <tr>
+                <td>f</td>
+                <td>g</td>
+                <td>h</td>
+                <td>i</td>
+            </tr>
+
+            <tr>
+                <td>j</td>
+                <td>k</td>
+                <td>l</td>
+                <td>m</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Tableau 5</h3>
+    <table>
+        <tbody>
+            <tr>
+                <th rowspan="3">a</th>
+                <th>b</th>
+            </tr>
+        
+            <tr>
+                <td>c</td>
+            </tr>
+            <tr>
+                
+                <td>d</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Tableau 6</h3>
+    <table>
+        <tbody>
+            <tr>
+                <th>a</th>
+                <th colspan="3">b</th>
+            </tr>
+            <tr>
+                <td rowspan="3">c</td>
+                <td colspan="2">d</td>
+                <td rowspan="2">e</td>
+            </tr>
+            <tr>
+                <td rowspan="2">f</td>
+                <td>g</td>
+            </tr>
+            <tr>
+                <td colspan="2">h</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Formulaire</h2>
+    <!-- Créer une zone de texte-->
+    <textarea name="zonetext" cols="30" rows="10" placeholder="Bonjour..." class="area"></textarea>
+    
+    <form action="" method="GET">
+        <div class="inp">
+            <input type="text" name="prenom" placeholder="Entrez votre prénom" required>
+            <input type="text" name="nom" placeholder="Entrez votre nom" required>
+        </div>
+            <br>
+        <div class="inp">
+            <input type="email" name="email" placeholder="Entrez votre e-mail">
+            <input type="password" name="motdepasse" placeholder="Entrez un mot de passe">
+        </div>
+
+            <br>
+
+            <p>Votre sexe:</p>
+            <input type="radio" id="homme" name="sexe" value="homme">
+            <label for="homme">Homme</label>
+            <input type="radio" id="femme" name="sexe" value="femme">
+            <label for="femme">Femme</label>
+
+            <br>
+
+            <p>Vos couleurs préférées:</p>
+            <input type="checkbox" id=vert name="couleur">
+            <label for="vert">Vert</label>
+            <input type="checkbox" id=rouge name="couleur">
+            <label for="rouge">Rouge</label>
+            <input type="checkbox" id=bleu name="couleur">
+            <label for="bleu">Bleu</label>
+            <input type="checkbox" id=jaune name="couleur">
+            <label for="jaune">Jaune</label>
+
+            <br>
+
+            <p>Le pays d'où vous venez:</p>
+            <select>
+                <option value="vide" selected></option>
+                <option value="france">France</option>
+                <option value="bresil">Brésil</option>
+                <option value="canada">Canada</option>
+                <option value="tunisie">Tunisie</option>
+                <option value="senegal">Sénégal</option>
+                <option value="japon">Japon</option>
+                <option value="australie">Australie</option>
+                <option value="allemagne">Allemagne</option>
+                <option value="italie">Italie</option>
+                <option value="emirats">Emirats Arabe Unis</option>
+                <option value="corse">Corse</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit" id='submit' name="submit">Validez !</button>
+    </form>
+</body>
+</html>

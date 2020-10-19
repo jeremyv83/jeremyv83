@@ -1,0 +1,93 @@
+body{
+    background-color: hsl(0,0%,97%);
+    font-size: 15px
+}
+
+h1, p {
+    font-family: 'Poppins', sans-serif;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.textf{
+    color: hsl(234,12%,34%);
+}
+
+.textc{
+    color: hsl(229,6%,66%)
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+header{
+    text-align: center;
+    margin-bottom: 125px;
+    line-height:20px;
+    display: flex;
+    text-justify: auto;
+    flex-direction: column;
+}
+h1{
+    font-weight:normal;
+}
+
+.super{
+    border: 1px solid;
+    border-width: 4px 0px 0px 0px;
+    border-top-color: hsl(180,62%,55%);
+    box-shadow: 8px 12px 8px #aaa;
+    border-radius: 6px;
+    margin:25px;
+    width: 400px;
+    padding:5px 20px 20px 30px;
+    background-color: white;
+}
+
+.build{
+    border: 1px solid;
+    border-width: 4px 0px 0px 0px;
+    border-top-color: hsl(0,78%,62%);
+    box-shadow: 8px 12px 8px #aaa;
+    border-radius: 6px;
+    margin:25px;
+    padding:5px 20px 20px 30px;
+    background-color: white;
+}
+
+.karma{
+    border: 1px solid;
+    border-width: 4px 0px 0px 0px;
+    border-top-color: hsl(34,97%,64%);
+    box-shadow: 8px 12px 8px #aaa;
+    border-radius: 6px;
+    margin:25px;
+    padding:5px 20px 20px 30px;
+    background-color: white;
+}
+
+.calcul{
+    border: 1px solid;
+    border-width: 4px 0px 0px 0px;
+    border-top-color: hsl(212,86%,64%);
+    box-shadow: 8px 12px 8px #aaa;
+    border-radius: 6px;
+    margin:25px;
+    padding:5px 20px 20px 30px;
+    background-color: white;
+}
+
+.img{
+    margin-top:50px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.container{
+    display:flex;
+    height: 300px;
+    align-items: center;
+    margin-left:50px;
+}

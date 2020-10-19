@@ -1,0 +1,43 @@
+/*  07/10/2020
+*   Author : Jérémy Vivié
+*   v1.0
+*/
+@font-face{
+    font-family: "Kidie";
+    src: url("../ressources/police/HandmadeBrushes.ttf");
+}
+p{
+    color: blue;
+}
+h1{
+    color:red;
+    font-family:"Kidie";
+    
+}
+strong{
+    color: red;
+}
+li{
+    color:green;
+}
+#jaune{
+    color:yellow;
+}
+#orange{
+    color:orange;
+}
+.size{
+    font-size:50px;
+    
+}
+em {
+    color : green;
+}
+
+mark {
+    background-color: green;
+}
+
+.bord {
+    border: 1px solid black ;
+}
