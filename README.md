@@ -1,7 +1,8 @@
-### Hi there 👋
-# Bonjour, je suis Jérémy Vivié
-* Je suis en formation pour un titre professionnel développeur web et web mobile
-* On peut me joindre au 06 23 41 07 25
+### Salut ! 👋
+# Je suis Jérémy Vivié
+* En formation chez 3W Academy pour un titre de Concepteur Développeur d'Application
+
+- 📫 Comment me retrouver: [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shuklaraghav321.com)](mailto:jeremyvivie.pro@gmail.com)
 <!--
 **jeremyv83/jeremyv83** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
