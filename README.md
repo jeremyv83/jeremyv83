@@ -2,7 +2,8 @@
 # Je suis Jérémy Vivié
 * En formation chez 3W Academy pour un titre de Concepteur Développeur d'Application
 
-- 📫 Comment me retrouver: [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shuklaraghav321.com)](mailto:jeremyvivie.pro@gmail.com)
+- 📫 Comment me retrouver: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=)](https://www.linkedin.com/in/j%C3%A9r%C3%A9my-vivi%C3%A9-415aa517a/) [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shuklaraghav321.com)](mailto:jeremyvivie.pro@gmail.com) 
+
 <!--
 **jeremyv83/jeremyv83** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
